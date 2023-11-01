@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Gtective"
+version = "0.1.0"
+description = "View files you have access to in Google Drive"
+authors = ["TheBoatyMcBoatFace <gtools@bentleyhensel.com>"]
+readme = "README.md"
+license - "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-auth = "^2.23.4"
+google-auth-oauthlib = "^1.1.0"
+google-auth-httplib2 = "^0.1.1"
+google-api-python-client = "^2.106.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

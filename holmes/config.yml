@@ -1,0 +1,23 @@
+# holmes/config.yml
+# Configuration for Bond, Google Bond
+
+mime_mapping:
+  application:
+    vnd.google-apps.document: Google Doc
+    vnd.google-apps.spreadsheet: Google Sheet
+    vnd.google-apps.presentation: Google Slide
+    vnd.amazon.ebook: Amazon Kindle eBook
+
+  audio:
+    aac: AAC Audio
+
+  image:
+    avif: AVIF Image
+    gif: GIF
+    png: PNG
+    jpg: JPG
+
+
+  text:
+    html: HTML
+    calendar: iCalendar
