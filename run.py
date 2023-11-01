@@ -1,5 +1,5 @@
 # run.py
-from holmes import authenticate_and_get_service, list_files
+from app import authenticate_and_get_service, list_files
 
 def main():
     service = authenticate_and_get_service()
